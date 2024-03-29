@@ -22,7 +22,7 @@ const Detail = () => {
       <h1>Detail Dentist {detailOdon.id}</h1>
       { <ul className='li-detail'>
           <div className='tabla-detail'>
-            <h2>Nombre</h2>
+            <h2>Name</h2>
             <li>{detailOdon.name}</li>
           </div>
           <div className='tabla-detail'>

@@ -29,7 +29,7 @@ const Form = () => {
     <>
       <form onSubmit={handleSubmit}>
         <input placeholder="Nombre completo" type="text" onChange={({target}) => setUsuario({...usuario, nombre : target.value})}/>
-        <input placeholder="Email" role="email" type="email" onChange={({target}) => setUsuario({...usuario, email : target.value})} />
+        <input placeholder="Email" role="email" onChange={({target}) => setUsuario({...usuario, email : target.value})} />
         <button>Enviar</button>
       </form>
     

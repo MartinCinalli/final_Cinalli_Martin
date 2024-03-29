@@ -133,6 +133,7 @@ tr:nth-child(even) {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  margin: 0px;
 }
 
 .tabla-detail{
@@ -141,6 +142,10 @@ tr:nth-child(even) {
   align-items: center;
   width: 300px;
   border: 1px solid #000;
+}
+
+li{
+  
 }
 
 .contact{
